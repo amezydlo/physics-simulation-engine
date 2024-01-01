@@ -1,5 +1,8 @@
 package org.example
 
+import org.example.geometry.Vector2
+
 fun main() {
-    println("Hello World!")
+    val vector2 = Vector2(2.0, 2.0)
+    println(vector2.magnitude)
 }
