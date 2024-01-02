@@ -7,7 +7,8 @@
 3. Clean and understandable documentation
 
 ## TODO
-- [ ] Create 2D `Vector` class with basic methods
+- [x] Create 2D `Vector` class with basic methods
+- [ ] Move unit tests to kotlin tests or JUnit
 - [ ] Create REPL which will be later replaced by gui 
 - [ ] Create `Space / Environment` classes which will be the main scene of the simulation. Environment will enable adding
 extra conditions like air resistance or gravity as well as void / air / water. 
