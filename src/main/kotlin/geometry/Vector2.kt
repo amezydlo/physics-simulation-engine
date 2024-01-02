@@ -9,7 +9,7 @@ class Vector2(var x: Double, var y: Double) {
     val euclideanNorm: Double
         get() = sqrt(x.pow(2) + y.pow(2))
 
-    val unitVector: Vector2
+    val normalized: Vector2
         get() = Vector2(x / euclideanNorm, y / euclideanNorm)
 
     operator fun plus(other: Vector2) = Vector2(x + other.x, y + other.y)

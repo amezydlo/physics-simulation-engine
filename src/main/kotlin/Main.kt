@@ -12,7 +12,7 @@ fun main() {
 
     println((vec1 + vec2).euclideanNorm)
     println(vec1.dot(vec2))
-    val t = vec1.unitVector
+    val t = vec1.normalized
     println(t)
     println(t.euclideanNorm)
 
